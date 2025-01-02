@@ -12,8 +12,12 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
+<<<<<<< Updated upstream
     "test": "echo \"Error: no test specified\" && exit 1",
     "start":"node index.js"
+=======
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> Stashed changes
   },
   "author": "",
   "license": "ISC",
