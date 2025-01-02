@@ -667,7 +667,7 @@ route.get("/back",function(req,res){
 
 route.get("/delete-stock/:id",checkAdmin,async(req,res)=>{
     let d=await exe(`delete from stocks where id='${req.params.id}'`)
-    res.redirect("/stocks");
+    res.redirect("/stocks");   
 })
 
 module.exports=route;
